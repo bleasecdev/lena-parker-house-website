@@ -2320,6 +2320,14 @@ a.btn-outline-light{
     font-family: 'Antic Didone';
 }
 
+button.btn-outline-light{
+  border-color: #ffc800;
+  font-family: 'Antic Didone';
+}
+
+#submitButton{
+  border-color: #ffc800;
+}
 
 .btn-check {
   position: absolute;
@@ -7580,6 +7588,7 @@ a.btn-outline-light{
 .my-3 {
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
+  font-family: 'Antic Didone';
 }
 
 .my-4 {
@@ -10850,6 +10859,7 @@ p {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: 'Arapey';
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -11275,7 +11285,9 @@ section#contact {
     bottom: 0;
     right: 0;
     z-index: -1;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/pexels-taryn-elliott-3015493-1920x1080-24fps.mp4") center center/cover no-repeat fixed;
+    background: linear-gradient(to bottom, rgb(168, 248, 255, 100)-60%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/pexels-pavel-danilyuk-6667468.jpg");
+    background-position: center;
+    background-size: cover;
   }
   
   section#contact .section-heading {
@@ -11337,9 +11349,30 @@ section#contact {
     color: #ced4da;
   }
   
+  form#contactForm .form-group input,
+  form#contactForm .form-group textarea {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form#contactForm .form-group input:focus,
+form#contactForm .form-group textarea:focus {
+  outline: none;
+  border-color: #ffc800;
+}
+
+
 
 .footer {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#experience {
+  margin-bottom: 30px;
 }
