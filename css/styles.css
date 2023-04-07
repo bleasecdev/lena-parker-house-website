@@ -11365,12 +11365,27 @@ form#contactForm .form-group textarea:focus {
   border-color: #ffc800;
 }
 
+#about{
+  background: linear-gradient(to bottom, rgb(168, 248, 255, 100)0%, rgba(0, 0, 0, 0.8) 110%);
+}
 
+hr.divider {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #ffc800;
+  border-color: #ffc800;
+  opacity: 1;
+}
 
 .footer {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.name{
+  font-family: 'Antic didone';
 }
 
 #experience {
