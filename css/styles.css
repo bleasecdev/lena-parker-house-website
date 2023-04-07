@@ -11366,7 +11366,7 @@ form#contactForm .form-group textarea:focus {
 }
 
 #about{
-  background: linear-gradient(to bottom, rgb(168, 248, 255, 100)20%, rgba(0, 0, 0, 0.8) 110%);
+  background: linear-gradient(to bottom, rgb(168, 248, 255, 100)0%, rgba(0, 0, 0, 0.8) 110%);
 }
 
 hr.divider {
