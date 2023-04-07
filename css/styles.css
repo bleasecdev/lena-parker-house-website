@@ -11366,8 +11366,15 @@ form#contactForm .form-group textarea:focus {
 }
 
 #about{
-  background: linear-gradient(to bottom, rgb(168, 248, 255, 100)0%, rgba(0, 0, 0, 0.8) 110%);
-}
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to bottom, rgb(168, 248, 255, 100)-60%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/pexels-andrea-piacquadio-3771110 (1).jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;}
 
 hr.divider {
   height: 0.2rem;
